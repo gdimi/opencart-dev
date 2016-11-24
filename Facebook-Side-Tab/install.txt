@@ -1,0 +1,25 @@
+Facebook page plugin module 1.0 Beta
+=================================================================
+
+Author ------  HyperWorks
+Support -----  info@hyperworks.gr
+
+
+What this module does
+===================
+Places a side tab with a facebook page plugin of your desired facebook page. 
+This is the new way of doing the already well-known facebook likebox which is already
+deprecated by facebook and soon will stop working.
+
+This is for opencart 1.5.4-1.5.6. 
+It may work for previous 1.5.x versions but we haven't tested it!
+
+
+
+How to Install
+==============
+Use FTP to upload the contents of "upload" folder directly to your public_html.
+Go to admin->extensions->modules and install the Facebook side tab
+Press [edit] to edit its options. You'll find basic usage on the bottom
+
+If you have any problems email as at top of this txt file.

@@ -1,0 +1,27 @@
+.fbst-main {
+    transition: all 0.8s ease 0s;
+    z-index: 10000;
+}
+
+.fbst-main:hover {
+    right:0px !important;
+}
+
+.fbst-main.left:hover {
+	left:0px !important;
+	right: 100% !important;
+}
+
+.fbst-image {
+    height: 50px;
+    width: 50px;
+    float:left;
+    right:-100px;
+}
+
+.fbst-image.left {
+	float: right;
+	left: 0;
+	position: relative;
+	right: 100%;
+}

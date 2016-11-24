@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+   <id>Show free shipping only</id>
+   <version>1.0</version>
+   <vqmver>2.X</vqmver>
+   <author>gdimi@hyperworks.gr</author>
+        <file name="catalog/controller/checkout/shipping_method.php">
+                <operation info="insert code to show only free shipping if enabled and active">
+
+                        <search position="before"><![CDATA[
+                        $this->session->data['shipping_methods'] = $quote_data;
+                        ]]></search>
+
+                        <add><![CDATA[
+                        if (isset($quote_data['free'])) {
+                            $free_only['free'] = $quote_data['free'];
+                            $quote_data = $free_only;
+                        }   
+                        ]]></add>
+
+                </operation>
+        </file>
+</modification>

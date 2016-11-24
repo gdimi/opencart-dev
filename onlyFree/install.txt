@@ -1,0 +1,22 @@
+[vQmod] show only free shipping if enabled and active v1.0
+=================================================================
+
+Author ------  HyperWorks
+Support -----  info@hyperworks.gr
+
+This is an .xml file that uses its override system to avoid having to change core files.
+YOU NEED TO HAVE VQMOD INSTALLED
+You should be running the latest version which can be downloaded for free at http://code.google.com/p/vqmod/
+
+What this file does
+===================
+Hides all other shipping options if free shipping is enabled for the current purchase
+
+this is for opencart 1.5.2-1.5.6
+
+
+How to Install
+==============
+Use FTP to upload the file onlyFree.xml into the vqmod/xml folder.
+
+If you have any problems email as at top of this txt file.
